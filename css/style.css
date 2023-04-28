@@ -125,7 +125,7 @@ figure{
     max-width: 450px
 }
 .sales{
-    position:relative;
+    position:absolute;
     bottom: 50px;
     background-color: red;
     color: white;
@@ -136,9 +136,20 @@ figure{
 }
 
 .sustainability{
-    position:relative;
+    position:absolute;
     bottom: 50px;
-    left: 5px;
+    left: 65px;
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    font-weight: 800;
+    display: inline-block;
+}
+
+.alone-sustainability{
+    position:absolute;
+    bottom: 50px;
+    left: 0;
     background-color: green;
     color: white;
     padding: 5px 10px;
