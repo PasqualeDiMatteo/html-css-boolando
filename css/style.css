@@ -4,4 +4,65 @@
     box-sizing: border-box;
 }
 
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
 /* Generic */
+
+
+/* Header */
+
+header{
+    background-color: rgb(255, 105, 0);
+    height: 80px;
+}
+
+.flex-header{
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.logo img{
+    width: 150px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+li{
+    padding: 10px;
+}
+
+nav,.tools{
+    flex-basis: 25%;
+}
+
+figure{
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.tools{
+    text-align: right;
+}
+
+.genderlist a{
+    font-weight: 800;
+}
+
+
+/* Utility */
+
+.flex{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
