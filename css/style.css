@@ -93,7 +93,14 @@ figure{
 
 .card:hover #hover-image{
     display:block;
-    ;
+}
+
+.favorites:hover #opening-favorites{
+    display: none;
+}
+
+.favorites:hover #hover-favorites{
+    display:block;
 }
 
 #opening-image{
@@ -107,6 +114,16 @@ figure{
     max-width: 450px
 }
 
+#opening-favorites{
+    max-width: 450px;
+    display: block;
+    
+}
+
+#hover-favorites{
+    display: none;
+    max-width: 450px
+}
 .sales{
     position:relative;
     bottom: 50px;
