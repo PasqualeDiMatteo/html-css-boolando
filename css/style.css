@@ -11,6 +11,15 @@
 
 /* Generic */
 
+h3{
+   color: white;
+}
+
+h5{
+    color: white;
+    font-size: 15px;
+    
+}
 
 /* Header */
 
@@ -127,6 +136,29 @@ figure{
     text-decoration:line-through;
 }
 
+/* Footer */
+
+footer{
+    background-color: rgb(26, 26, 26);
+    height: 90px;
+    margin-top: 50px;
+}
+
+.flex-footer{
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+.info-footer a{
+    line-height: 30px;
+    padding-right: 10px;
+
+}
+.info-footer i{
+    line-height: 30px;
+    padding-right: 10px;
+}
 
 /* Utility */
 
