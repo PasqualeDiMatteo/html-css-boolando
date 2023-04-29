@@ -137,7 +137,6 @@ position: absolute;
     color: white;
     padding: 5px 10px;
     font-weight: 800;
-    display: inline-block;
     margin-right: 5px;
 
 }
@@ -150,7 +149,6 @@ position: absolute;
     color: white;
     padding: 5px 10px;
     font-weight: 800;
-    display: inline-block;
 }
 
 .favorites{
