@@ -124,31 +124,27 @@ figure{
     display: none;
     max-width: 450px
 }
+
+.position{
+display: flex;
+position: absolute;
+}
+
 .sales{
-    position:absolute;
-    bottom: 50px;
+    position:relative;
+    bottom: 80px;
     background-color: red;
     color: white;
     padding: 5px 10px;
     font-weight: 800;
     display: inline-block;
+    margin-right: 5px;
 
 }
 
 .sustainability{
-    position:absolute;
-    bottom: 50px;
-    left: 65px;
-    background-color: green;
-    color: white;
-    padding: 5px 10px;
-    font-weight: 800;
-    display: inline-block;
-}
-
-.alone-sustainability{
-    position:absolute;
-    bottom: 50px;
+    position:relative;
+    bottom: 80px;
     left: 0;
     background-color: green;
     color: white;
